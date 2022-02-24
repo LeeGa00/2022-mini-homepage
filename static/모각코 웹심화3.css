@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.poor_Story{
+    font-family: 'Poor Story', cursive;
+    }
+h2{
+    color:red;
+    }
+h3{
+    font-family: 'KOTRA_BOLD-Bold';
+    color:blueviolet;
+    }

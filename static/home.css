@@ -1,0 +1,106 @@
+
+.updateContent{
+    display: flex;
+    flex: 1;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+  }
+  
+  .updateContent1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .updateContent2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .profileImg{
+    flex: 0.3;
+    padding-bottom: 20px;
+  }
+  
+  .introduce{
+    flex: 0.8;
+    font-size: 15px;
+    font-family: 'KyoboHand';
+  }
+  
+  .name{
+    flex: 0.1;
+    font-family: 'KyoboHand';
+    font-size: 20px;
+  }
+  
+  .update{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+  }
+  
+  .updateFont{
+    flex: 0.2;
+    font-family: 'KOTRA_BOLD-Bold';
+    padding-top: 7px;
+    color: rgb(41, 130, 189);
+  }
+  
+  .photo{
+    display: inline-block;
+    background-color: rgb(238, 101, 38);
+    color: white;
+    border-radius: 3px;
+    padding: 0px 7px;
+    margin: 2px 0px;
+  }
+  
+  .board{
+    display: inline-block;
+    background-color: rgb(68, 80, 185);
+    color: white;
+    border-radius: 3px;
+    padding: 0px 7px;
+    margin: 2px 0px;
+  }
+  
+  .num{
+    font-family: 'NeoDunggeunmo';
+    color: rgb(62, 62, 255);
+  }
+  
+  .table{
+    display: flex;
+    margin-bottom: 1px;
+  }
+  
+  
+  .table_{
+    flex: 1;
+  }
+  
+  hr{
+    border-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  hr.dashLine{
+    border: none;
+    width: 100%;
+    border: 0.1px dashed rgb(93, 140, 240);
+  }
+  
+  .miniroom{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+  }
+  
+  .miniroomFont{
+    flex: 0.2;
+    font-family: 'KOTRA_BOLD-Bold';
+    padding-top: 10px;
+    color: rgb(41, 130, 189);
+  }

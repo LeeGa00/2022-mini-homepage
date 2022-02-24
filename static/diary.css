@@ -1,0 +1,90 @@
+.date{
+    display: flex;
+    font-family: 'NeoDunggeunmo';
+    font-size: 13px;
+    border: solid skyblue 1px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.today{
+    flex: 0.1;
+    text-align: center;
+    font-style: bold;
+    color: rgb(3, 137, 146);
+}
+
+.calender{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.weekday{
+    color: rgb(43, 43, 43);
+    margin-left: 10px;
+}
+
+.sat{
+    color: blue;
+    margin-left: 10px;
+}
+
+.sun{
+    color: red; 
+    margin-left: 10px;
+}
+
+.diaryCont{
+    overflow: auto;
+    font-family: 'NeoDunggeunmo';
+    height: 480px;
+    margin-top: 15px;
+}
+
+.diaryPost{
+    border: solid skyblue 1px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.diaryTitle{
+    font-size: 16px;
+    font-style: bold;
+    color: rgb(23, 23, 167);
+    padding-bottom: 5px;
+}
+
+.diary_content{
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 5px;
+}
+
+.button-box{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.secret{
+    font-family: 'NeoDunggeunmo';
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    background-color: white;
+    border: 2px;
+    border-radius: 2px;
+    margin-left: 180px;
+    padding: 7px;
+}
+
+.secret:hover{
+    transition: 1000ms;
+    background-color: rgb(82, 185, 226);
+    cursor: pointer;
+}
+
+#secret-box {
+    display: none;
+}

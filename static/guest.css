@@ -1,0 +1,67 @@
+.guestCont{
+    overflow: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'NeoDunggeunmo';
+}
+
+.guestBox{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.guestTitle{
+    flex: 0.2;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(122, 127, 134);
+    padding: 5px;
+}
+
+.nickname{
+    color: rgb(212, 172, 248);
+}
+
+.guestContent{
+    display: flex;
+    flex-direction: row;
+    flex: 0.8;
+    padding-top: 8px;
+    align-items: center;
+}
+
+.guestbook-image {
+    flex: 0 0 8rem;
+    height: 8rem;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background-1 {
+    background-image: url("./images/background1.jpeg");
+  }
+
+  .background-2 {
+    background-image: url("./images/background2.jpeg");
+  }
+
+  .background-3 {
+    background-image: url("./images/background3.jpeg");
+  }
+  
+  .guestbook-image > img {
+    width: 80%;
+  }
+
+  .guest-write{
+    flex: 1;
+    font-size: 15px;
+    margin-left: 20px;
+    text-align: justify;
+    justify-content:center;
+    align-items:center;
+  }

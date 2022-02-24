@@ -1,0 +1,26 @@
+.album{
+    overflow: auto;
+    height: 512px;
+}
+
+.inPhoto{
+    flex: auto;
+    font-family: 'NeoDunggeunmo';
+    margin-bottom: 10px;
+}
+
+.postTitle{
+    font-size: 14px;
+    font-style: bold;
+    background-color: rgb(215, 255, 255);
+    padding: 2px;
+}
+
+.postPhoto{
+    padding: 15px;
+}
+
+.postCont{
+    font-size: 13px;
+    padding: 10px 30px 35px 10px;
+}
